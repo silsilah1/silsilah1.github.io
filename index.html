@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keluarga Besar Sinara</title>
+    <title>Keluarga Besar Eba Lesang</title>
     <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#3498db">
     <link rel="apple-touch-icon" href="./icons/icon-192.png">
@@ -145,7 +145,7 @@
         <h2 class="text-xl font-bold tracking-wide">KETUK LAYAR</h2>
     </div>
     <center>
-    <p class="text-xs text-gray-400 mt-1">UNTUK MELIHAT SILSILAH<br>KETURUNAN SINARA</p></center>
+    <p class="text-xs text-gray-400 mt-1">UNTUK MELIHAT SILSILAH<br>KETURUNAN EBA LESANG</p></center>
     <script>
         (function() {
             // PERUBAHAN DISINI: Format ISO dengan Timezone +08:00 (WITA)
@@ -184,7 +184,7 @@
 
 <div class="max-w-4xl mx-auto pb-6">
     <header class="text-center mb-6 mt-4">
-        <div class="mb-4 px-4"><h4 class="text-lg sm:text-xl md:text-2xl font-bold text-slate-800 dark:text-gray-100 m-0 font-serif tracking-wide leading-tight">Keluarga Besar Sinara</h4></div>
+        <div class="mb-4 px-4"><h4 class="text-lg sm:text-xl md:text-2xl font-bold text-slate-800 dark:text-gray-100 m-0 font-serif tracking-wide leading-tight">Keluarga Besar Eba Lesang</h4></div>
         
         <div class="flex justify-center items-center gap-4 mb-6">
             <button onclick="fetchData()" class="w-10 h-10 rounded-full border border-gray-300 bg-white text-gray-600 hover:bg-primary hover:text-white hover:border-primary flex items-center justify-center transition-all duration-200 shadow-sm dark:bg-gray-800 dark:border-gray-600 dark:text-gray-300" title="Refresh Data"><i class="fas fa-sync-alt"></i></button>
@@ -255,8 +255,8 @@
     </div>
 
     <footer class="mt-4 border-t border-gray-200 dark:border-gray-700 pt-6 pb-4 text-center transition-colors duration-300">
-        <p class="text-sm font-semibold text-slate-600 dark:text-gray-300 mb-1">&copy; Copyright Keluarga Besar Sinara</p>
-        <p class="text-xs text-gray-500 dark:text-gray-500">Original Design by <a href="https://wa.me/6282293763134" target="_blank" class="font-bold text-primary hover:text-primary-dark hover:underline">Akram Syah</a> & <a href="#" target="_blank" class="font-bold text-primary hover:text-primary-dark hover:underline">Muskilaturahmi</a><br>Berkolaborasi degan Seluruh Keturunan Sinara<br>Info & Pengembangan - Hubungi Admin Grup</p>
+        <p class="text-sm font-semibold text-slate-600 dark:text-gray-300 mb-1">&copy; Copyright Keluarga Besar Eba Lesang</p>
+        <p class="text-xs text-gray-500 dark:text-gray-500">Original Design by <a href="https://wa.me/6282293763134" target="_blank" class="font-bold text-primary hover:text-primary-dark hover:underline">Akram Syah</a> & <a href="#" target="_blank" class="font-bold text-primary hover:text-primary-dark hover:underline">Muskilaturahmi</a><br>Berkolaborasi degan Seluruh Keturunan Eba Lesanga<br>Info & Pengembangan - Hubungi Admin Grup</p>
     </footer>
 </div>
 
@@ -796,7 +796,7 @@ async function fetchFamilyDataSmart() {
             }
             pLabel = `<span class="block text-[0.7rem] uppercase text-gray-500 dark:text-gray-400 mb-0.5">Anak dari: <strong class="text-slate-700 dark:text-gray-200">${f ? f.name : '???'}</strong> & <strong class="text-slate-700 dark:text-gray-200">${partnerName}</strong></span>`;
         } else { 
-            pLabel = `<span class="block text-[0.7rem] uppercase text-primary mb-0.5">Anak dari Gusa (Imam Kerajaan Pao)</span>`; 
+            pLabel = `<span class="block text-[0.7rem] uppercase text-primary mb-0.5"></span>`; 
         }
 
         let spHtml = ''; 
@@ -1612,7 +1612,7 @@ async function fetchFamilyDataSmart() {
         if (roots.length === 0) { showCustomAlert("Data Kosong", "Data leluhur utama tidak ditemukan.", "error"); return; }
         const colors = [ "#FFD700", "#00BFFF", "#32CD32", "#FF69B4", "#FFA500", "#9370DB", "#00FA9A", "#FF6347", "#87CEEB", "#DDA0DD" ];
         const dateStr = new Date().toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-        let htmlContent = `<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><title>Silsilah Keluarga Sinara</title><style>body{background-color:#1e1e1e;color:#cccccc;font-family:'Consolas','Monaco','Courier New',monospace;white-space:pre;padding:20px;font-size:14px;line-height:1.5;}.header{color:#ffffff;font-weight:bold;margin-bottom:20px;border-bottom:1px dashed #555;padding-bottom:10px;}.tree-line{color:#555555;}.spouse{color:#888888;font-style:italic;font-size:0.9em;}</style></head><body><div class="header">=== STRUKTUR KELUARGA BESAR SINARA ===\nDiunduh pada: ${dateStr}\nKeterangan: (Alm)=Pria Wafat, (Almh)=Wanita Wafat\nWarna teks menunjukkan perbedaan generasi.\n=================================================</div>`;
+        let htmlContent = `<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><title>Silsilah Keluarga Eba Lesang</title><style>body{background-color:#1e1e1e;color:#cccccc;font-family:'Consolas','Monaco','Courier New',monospace;white-space:pre;padding:20px;font-size:14px;line-height:1.5;}.header{color:#ffffff;font-weight:bold;margin-bottom:20px;border-bottom:1px dashed #555;padding-bottom:10px;}.tree-line{color:#555555;}.spouse{color:#888888;font-style:italic;font-size:0.9em;}</style></head><body><div class="header">=== STRUKTUR KELUARGA BESAR EBA LESANG ===\nDiunduh pada: ${dateStr}\nKeterangan: (Alm)=Pria Wafat, (Almh)=Wanita Wafat\nWarna teks menunjukkan perbedaan generasi.\n=================================================</div>`;
         roots.forEach(root => { htmlContent += generateColoredTree(root, "", true, true, 0, colors); htmlContent += "\n\n<div class='tree-line'>-------------------------------------------------</div>\n\n"; });
         htmlContent += `</body></html>`;
         try {
@@ -1686,7 +1686,7 @@ async function fetchFamilyDataSmart() {
         const pageWidth = doc.internal.pageSize.getWidth(); 
         const pageHeight = doc.internal.pageSize.getHeight();
         
-        doc.text("KELUARGA BESAR SINARA", pageWidth / 2, 15, { align: 'center' });
+        doc.text("KELUARGA BESAR EBA LESANG", pageWidth / 2, 15, { align: 'center' });
         doc.setFontSize(10); 
         doc.setFont("helvetica", "normal");
         doc.text(`Diunduh pada: ${new Date().toLocaleDateString('id-ID', {weekday:'long', year:'numeric', month:'long', day:'numeric'})}`, pageWidth / 2, 22, { align: 'center' });
@@ -1898,7 +1898,7 @@ async function fetchFamilyDataSmart() {
         const pageWidth = doc.internal.pageSize.getWidth(); const pageHeight = doc.internal.pageSize.getHeight(); const margin = 15; const maxLineWidth = pageWidth - (margin * 2); let yPos = 20;
 
         doc.setFont("times", "bold"); doc.setFontSize(16); doc.setTextColor(50, 50, 50);
-        doc.text("KISAH KELUARGA BESAR SINARA", pageWidth / 2, yPos, { align: 'center' });
+        doc.text("KISAH KELUARGA BESAR EBA LESANG", pageWidth / 2, yPos, { align: 'center' });
         yPos += 8; doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.setTextColor(100, 100, 100);
         doc.text(`Dokumen Narasi Silsilah | Diunduh: ${new Date().toLocaleDateString('id-ID')}`, pageWidth / 2, yPos, { align: 'center' });
         yPos += 10; doc.setDrawColor(200, 200, 200); doc.line(margin, yPos, pageWidth - margin, yPos); yPos += 10;
